@@ -130,7 +130,7 @@ There are several great guides with a similar goal. Some are limited in scope, w
 * Install some common tools from the Scipy stack
 
         sudo apt-get install -y libfreetype6-dev libpng12-dev
-        pip install -U matplotlib ipython[all] pandas scikit-image
+        pip install -U matplotlib ipython[all] jupyter pandas scikit-image
         
 ### Caffe
 * The following instructions are from [here](http://caffe.berkeleyvision.org/install_apt.html). The first step is to install the pre-requisites
