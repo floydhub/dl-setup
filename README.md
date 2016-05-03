@@ -17,7 +17,7 @@ There are several great guides with a similar goal. Some are limited in scope, w
 * [Theano](#theano)
 * [Keras](#keras)
 * [Torch](#torch)
-* [X2Go (Remote Access)](#x2go--remote-access)
+* [X2Go](#x2go)
 
 ### Basics
 * First, open a terminal and run the following commands to make sure your OS is up-to-date
