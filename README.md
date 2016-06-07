@@ -24,12 +24,9 @@ There are several great guides with a similar goal. Some are limited in scope, w
 
         sudo apt-get update  
         sudo apt-get upgrade  
-        sudo apt-get install build-essential  
+        sudo apt-get install build-essential cmake g++ gfortran git pkg-config python-dev software-properties-common wget
         sudo apt-get autoremove 
-
-* Install git
-
-        sudo apt-get install git 
+        rm -rf /var/lib/apt/lists/*
 
 ### Nvidia Drivers
 * Find your graphics card model
@@ -99,6 +96,16 @@ There are several great guides with a similar goal. Some are limited in scope, w
         
 ### Check
 * You can do a check to ensure everything is good so far using the `nvidia-smi` command. This should output some stats about your GPU
+
+### Python Packages
+* Install some useful Python packages using apt-get. There are some version incompatibilities with using pip install and TensorFlow ( see https://github.com/tensorflow/tensorflow/issues/2034)
+ 
+        sudo apt-get update && apt-get install -y python-numpy python-scipy python-nose \
+                                                python-h5py python-skimage python-matplotlib \
+		                                python-pandas python-sklearn python-sympy
+        sudo apt-get clean && sudo apt-get autoremove
+        rm -rf /var/lib/apt/lists/*
+ 
 
 ### Tensorflow
 * This installs v0.8 with GPU support. Instructions below are from [here](https://www.tensorflow.org/versions/r0.8/get_started/os_setup.html)
