@@ -10,6 +10,7 @@ There are several great guides with a similar goal. Some are limited in scope, w
 * [Nvidia Drivers](#nvidia-drivers)
 * [CUDA](#cuda)
 * [cuDNN](#cudnn)
+* [Python Packages](#python-packages)
 * [Tensorflow](#tensorflow)
 * [OpenBLAS](#openblas)
 * [Common Tools](#common-tools)
