@@ -27,7 +27,7 @@ There are several great guides with a similar goal. Some are limited in scope, w
         sudo apt-get upgrade  
         sudo apt-get install build-essential cmake g++ gfortran git pkg-config python-dev software-properties-common wget
         sudo apt-get autoremove 
-        rm -rf /var/lib/apt/lists/*
+        sudo rm -rf /var/lib/apt/lists/*
 
 ### Nvidia Drivers
 * Find your graphics card model
