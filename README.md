@@ -1,3 +1,6 @@
+## Update: I've built a quick tool based on this repo. Start running your Tensorflow project on AWS in <30seconds using Floyd. See [www.floydhub.com](https://www.floydhub.com). It's free to try out. 
+### Happy to take feature requests/feedback and answer questions - mail me sai@floydhub.com.
+
 ## Setting up a Deep Learning Machine from Scratch (Software)
 A detailed guide to setting up your machine for deep learning research. Includes instructions to install drivers, tools and various deep learning frameworks. This was tested on a 64 bit machine with Nvidia Titan X, running Ubuntu 14.04
 
