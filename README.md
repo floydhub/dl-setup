@@ -104,7 +104,7 @@ There are several great guides with a similar goal. Some are limited in scope, w
 ### Python Packages
 * Install some useful Python packages using apt-get. There are some version incompatibilities with using pip install and TensorFlow ( see https://github.com/tensorflow/tensorflow/issues/2034)
  
-        sudo apt-get update && apt-get install -y python-numpy python-scipy python-nose \
+        sudo apt-get update && sudo apt-get install -y python-numpy python-scipy python-nose \
                                                 python-h5py python-skimage python-matplotlib \
 		                                python-pandas python-sklearn python-sympy
         sudo apt-get clean && sudo apt-get autoremove
