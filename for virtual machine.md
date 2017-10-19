@@ -1,4 +1,4 @@
-# Installing Caffe Cuda and all its dependencies on Virtual Box in Ubuntu 14.04 to make my first deep learning network!
+# Installing Caffe and all its dependencies on Virtual Box in Ubuntu 14.04 to make my first deep learning network!
 
 1. sudo apt-get update && sudo apt-get upgrade
 2. Download Vagrant from their website
